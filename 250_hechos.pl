@@ -117,6 +117,7 @@ Pokemon_iniciales_fuego(litten).
 Pokemon_iniciales_fuego(Scorbunny).
 Pokemon_iniciales_fuego(Fuecoco).
  
+% echos de 2 argumentos
 % NaturalezaAumenta(Naturaleza, EstadísticaAumentada).
 naturaleza_aumenta(fuerte, ataque).
 naturaleza_aumenta(huraña, ataque).
@@ -235,6 +236,7 @@ Grupo_evolutivo_1(cresselia, no_evoluciona).
 Grupo_evolutivo_1(torkoal, no_evoluciona).
 Grupo_evolutivo_1(spinda, no_evoluciona).
 
+% Hechos de 3 argumentos
  
 % NaturalezaGustos(Naturaleza, GustoPreferido, GustoDisgustado).
 naturaleza_gustos(fuerte, picante, picante).
