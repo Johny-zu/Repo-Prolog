@@ -128,3 +128,7 @@ evoluciona_por_intercambio_objeto(x, protector).
 evoluciona_por_intercambio_objeto(x, magmatiador).
 evoluciona_por_intercambio_objeto(x, electrizador).
 
+%listas
+Grupo_evolutivo_1([miltank, lapras, tauros, ditto, shukle, delibird, skarmory, smeargle, mawile, sableye]).
+Grupo_evolutivo_2([electrike, blitze, helipotile, toxel, rockruff, salantid, noibat]).
+Grupo_evolutivo_3([charmander, Squirtle, bulbasaur, torchik, mudkip, treeko, chimchar, piplup, turtwig, chikorita]).
