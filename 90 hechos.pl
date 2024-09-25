@@ -24,16 +24,19 @@ Hábitat(agua_salada).
 Pokemon_Iniciales_fuego(Charmander).
 Pokemon_Iniciales_fuego(Cindaquyl).
 Pokemon_Iniciales_fuego(torchik)
+Pokemon_Iniciales_fuego(chimchar).
 
 % Pokemon_Iniciales_agua
 Pokemon_Iniciales_agua(Squirtle).
 Pokemon_Iniciales_agua(totodail).
 Pokemon_Iniciales_agua(mudkip).
+Pokemon_Iniciales_agua(piplup).
 
 % Pokemon_Iniciales_planta
 Pokemon_Iniciales_planta(bulbasaur).
 Pokemon_Iniciales_planta(Chikorita).
 Pokemon_Iniciales_planta(Treeko).
+Pokemon_Iniciales_planta(turtwig).
 
 % Datos numero
 % Tipo_ataque
@@ -75,16 +78,53 @@ Grupo_evolutivo_2(salantid, salazzle).
 Grupo_evolutivo_2(noibat, nivern)
 
 % Variable
-% movimiento
+% movimientos
 aprende_por_nivel(x, puño_trueno).
 aprende_por_nivel(x, Doble_patada).
-aprende_por_nivel(x, neblina).
+aprende_por_nivel(x, lanzallamas).
+aprende_por_nivel(x, hidrobomba).
+aprende_por_nivel(x, rayo_hielo).
+aprende_por_nivel(x, terremoto).
 
-aprende_por_mt(x, vuelo).
-aprende_por_mt(x, surf).
-aprende_por_mt(x, fuerza).
-aprende_por_mt(x, buceo).
+aprende_por_mo(x, vuelo).
+aprende_por_mo(x, surf).
+aprende_por_mo(x, fuerza).
+aprende_por_mo(x, buceo).
+aprende_por_mo(x, cascada).
+
+aprende_por_mt(x, rayo).
+aprende_por_mt(x, trueno).
+aprende_por_mt(x, hiper_rayo).
+aprende_por_mt(x, terremoto).
+aprende_por_mt(x, avalancha).
 
 aprende_por_tutor(x, voto_planta).
 aprende_por_tutor(x, voto_agua).
 aprende_por_tutor(x, voto_fuego)
+
+aprende_grupo_huevo(x, joya_luz).
+aprende_grupo_huevo(x, tierra_viva).
+aprende_grupo_huevo(x, sombra_vil).
+
+% evoluciones
+evoluciona_por_nivel(x, 20).
+evoluciona_por_nivel(x, 30).
+evoluciona_por_nivel(x, 40).
+evoluciona_por_nivel(x, 16).
+evoluciona_por_nivel(x, 36).
+evoluciona_por_nivel(x, 42).
+
+evoluciona_por_piedra(x, piedra_trueno).
+evoluciona_por_piedra(x, piedra_noche).
+evoluciona_por_piedra(x, piedra_fuego).
+evoluciona_por_piedra(x, piedra_hoja).
+evoluciona_por_piedra(x, piedra_agua).
+
+evoluciona_por_intercambio_objeto(x, rev.metalico).
+evoluciona_por_intercambio_objeto(x, escama_bella).
+evoluciona_por_intercambio_objeto(x, mejora).
+evoluciona_por_intercambio_objeto(x, disco_extraño).
+evoluciona_por_intercambio_objeto(x, protector).
+evoluciona_por_intercambio_objeto(x, magmatiador).
+evoluciona_por_intercambio_objeto(x, electrizador).
+
